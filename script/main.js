@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
             modal.classList.add('active');
 
             let i = 0;
-            const speed = 50; 
+            const speed = 15; 
 
             typingInterval = setInterval(() => {
                 modalDesc.textContent += desc.charAt(i);
